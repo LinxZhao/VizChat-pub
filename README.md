@@ -11,11 +11,13 @@ You can find the newest release version in a zip format in release tab.
 OR you can clone the project locally and compile it by yourself using. You need to install npm and node.js to compile.
 The author used npm in version 10.5.0 and node.js 21.7.2
 
-`
+```
+
 npm install
 
 npm run build
-`
+
+```
 
 ### Install the extension
 
