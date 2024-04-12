@@ -13,6 +13,7 @@ The author used npm in version 10.5.0 and node.js 21.7.2
 
 `
 npm install
+
 npm run build
 `
 
