@@ -1,0 +1,83 @@
+{
+  "name": "VizChat",
+  "description": "Integrating GPT4v into an extension",
+  "version": "0.2.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "host_permissions": [
+    "https://*.openai.com/*",
+    "https://*.bing.com/*",
+    "https://*.poe.com/*",
+    "https://*.google.com/*",
+    "https://claude.ai/*",
+    "<all_urls>"
+  ],
+  "permissions": [
+    "cookies",
+    "storage",
+    "contextMenus",
+    "unlimitedStorage",
+    "tabs",
+    "webRequest",
+    "declarativeNetRequestWithHostAccess",
+    "sidePanel",
+    "activeTab"
+  ],
+  "optional_permissions": [
+    "background"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "IndependentPanel.html"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*",
+        "file://*/*"
+      ],
+      "js": [
+        "shared.js",
+        "content-script.js"
+      ],
+      "css": [
+        "content-script.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "logo.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+
+}

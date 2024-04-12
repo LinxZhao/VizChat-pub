@@ -1,0 +1,21 @@
+.idea/
+.vscode/
+node_modules/
+build/
+.DS_Store
+*.zip
+
+# Project exclude paths
+/unnecessary/
+/package-lock.json
+/package - 副本.json
+/safari/
+/safari/appdmg.json
+/safari/build.sh
+/safari/export-options.plist
+/safari/project.patch
+/safari/project.pre.patch
+/safari/project_developer.patch
+/screenshots/
+/package-bk2.json
+/package-broken.json

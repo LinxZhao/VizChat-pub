@@ -1,1 +1,3 @@
-# VizChat-pub
+# VizChat
+
+Description of VizChat
