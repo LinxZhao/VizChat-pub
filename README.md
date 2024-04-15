@@ -1,6 +1,24 @@
-# VizChat
+<h1 align="center"> 🤖 VizChat: Enhancing Learning Analytics Dashboards with Contextualised Explanations </h1>
 
-This tool enhances Learning Analytics Dashboards (LADs) by providing AI-generated contextual explanations for visualizations, aiming to mitigate cognitive overload and improve comprehension for users with varying levels of data visualization literacy.
+VizChat is an open-source Chrome extension designed to augment web-based Learning Analytics Dashboards (LADs) by providing contextualized explanations for visualizations through integrating multimodal generative AI and Retrieval-Augmented Generation (RAG). VizChat comprises three main components: 
+
+- A) a knowledge database that stores relevant contextual information as vector embeddings, 
+
+- B) a prompt synthesis mechanism through a context agent that crafts context-specific prompts,
+
+- C) a contextualized explanation generation process that leverages a multimodal generative AI model to produce explanations based on the enriched prompts. 
+
+This architecture enables VizChat to deliver precise, relevant, and easy-to-understand explanations, enhancing the educational value of LADs by making them more accessible and informative for users.
+
+<p align="center">
+<img src="./img/VizChat-system.png" width="512">
+</p>
+
+**Use Cases**: Here is an example of using VizChat to facilitate students' in-depth understanding of a complicated LAD to support reflective practices. As shown by the examples, VizChat can provide contextualized and personal responses by utilising the insights presented in one or more visualizations and explaining the underlying data collection and analysis procedures.
+
+<p align="center">
+<img src="./img/VizChat-case.png" width="512">
+</p>
 
 ## How to Install
 
