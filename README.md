@@ -24,7 +24,7 @@ This architecture enables VizChat to deliver precise, relevant, and easy-to-unde
 
 ### Obtain the Extension
 
-The latest release can be downloaded in zip format from the releases tab.
+The latest release can be downloaded in zip format from the **releases tab**.
 
 Alternatively, you can clone the repository and compile the extension yourself. Ensure npm and node.js are installed:
 - Recommended npm version: 10.5.0
