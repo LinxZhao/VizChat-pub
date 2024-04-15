@@ -41,7 +41,7 @@ npm run build
 
 ### Extension Setup
 
-Once downloaded, navigate to [your Chrome extension page](chrome://extensions/). Activate **developer mode** in the top right corner, then drag and drop the zip file onto the page.
+Once downloaded, navigate to [your Chrome extension page](chrome://extensions/). Activate **developer mode** in the top right corner, then drag and drop the zip file (**chromium.zip**) onto the page.
 
 If installed successfully, it will appear in your extension list. Click 'Details', then enable 'Pin to toolbar' to make VizChat accessible from your extension bar.
 
