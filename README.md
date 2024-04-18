@@ -25,7 +25,7 @@ This architecture enables VizChat to deliver precise, relevant, and easy-to-unde
 ### Obtain the Extension
 
 You can find the extension in zip format in **releases tab**. 
-Click here to download the [Chrome extension package](https://github.com/LinxZhao/VizChat-pub/releases/download/0.2.1/chromium.zip).
+Click here to download the [Chrome extension package](https://github.com/LinxZhao/VizChat-pub/releases/download/0.2.1/chromium-v0.2.2.zip).
 
 You can also clone the repository and compile the extension yourself. Ensure npm and node.js are installed:
 - Recommended npm version: >=10.5.0
