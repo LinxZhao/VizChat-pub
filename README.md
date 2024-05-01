@@ -22,7 +22,7 @@ This architecture enables VizChat to deliver precise, relevant, and easy-to-unde
 
 ## How to Install
 
-**VizChat is currently only supported on Windows Chrome due to limitations with screenshot functionalities on Mac devices.**
+VizChat is currently only supported on Windows Chrome due to limitations with screenshot functionalities on Mac devices.
 
 ### Obtain the Extension
 
