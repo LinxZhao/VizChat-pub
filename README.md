@@ -27,7 +27,7 @@ VizChat is currently only supported on Windows Chrome due to limitations with sc
 ### Obtain the Extension
 
 You can find the extension in zip format in **releases tab**. 
-Click here to download the [Chrome extension package](https://github.com/LinxZhao/VizChat-pub/releases/download/0.2.1/chromium-v0.2.2.zip).
+Click here to download the [Chrome extension package](https://github.com/LinxZhao/VizChat-pub/releases/download/0.2.2/chromium-v0.2.2.zip).
 
 You can also clone the repository and compile the extension yourself. Ensure npm and node.js are installed:
 - Recommended npm version: >=10.5.0
